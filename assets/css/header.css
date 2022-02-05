@@ -1,0 +1,65 @@
+
+.header{
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo a{
+    text-decoration: none;
+    color: #252525;
+}
+
+.menu{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: 1.125rem;
+    text-transform: uppercase;
+    color: #252525;
+   
+
+}
+
+.menu a:hover{
+   background-color: #7ED957;
+  color: #fff;
+   border-radius: 4px;
+ 
+}
+
+
+
+.header h2{
+    font-size: 2rem;
+}
+
+@media (max-width: 800px){
+    .header{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

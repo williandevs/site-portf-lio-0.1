@@ -1,0 +1,45 @@
+.meusprojetos-bg {
+  background-color: #fff;
+ 
+}
+
+.meusprojetos {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  
+ 
+}
+
+.meusprojetos img {
+  width: 500px;
+  cursor: pointer;
+  padding-bottom: 20px;
+
+}
+
+.projeto-titulo{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 40px 20px;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+
+
+
+@media (max-width: 800px) {
+  .meusprojetos {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 20px;
+  }
+}

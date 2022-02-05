@@ -1,0 +1,174 @@
+
+.sobre-mim-bg{
+    background-color: #F6F8FA;
+}
+.sobre-mim p{
+    font-size: 1.125rem;
+    padding: 40px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+
+.sobre-mim{
+    max-width: 1200px;
+    padding: 40px 20px ;
+    
+}
+.sobre-mim span{
+    color: #7ed957;
+}
+
+.sobre-mim .github{
+    color: #7ed957;
+    text-decoration: none;
+}
+
+
+
+/* habilidade */
+
+.conteudo-habilidades{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #F6F8FA;
+  
+}
+
+
+.habilidade-item h2{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+.habilidade {
+    width: 100%;
+    border-radius: 4px;
+}
+
+
+
+.container{
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.skill{
+    text-align: right;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.html{
+    background-color: #7ed957;
+    animation: fillhtml  2s forwards;
+}
+.css{
+    background-color: #7ed957;
+    animation: fillcss  2s forwards;
+}
+.js{
+    background-color: #7ed957;
+    animation: filljs  2s forwards;
+}
+.wp{
+    background-color: #7ed957;
+    animation: fillwp  2s forwards;
+}
+
+@keyframes fillhtml{
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+
+@keyframes fillcss{
+    0%{width: 0;}
+    100%{width: 60%;}
+}
+@keyframes filljs{
+    0%{width: 0;}
+    100%{width: 15%;}
+}
+
+@keyframes fillwp{
+    0%{width: 0;}
+    100%{width: 85%;}
+}
+
+
+
+
+
+
+
+
+/* experericia */
+
+.experiencia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+
+.experiencia h3{
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.experiencia p{
+    text-align: center;
+    padding: 5px;
+}
+
+
+.experiencia h2{
+    font-size: 3rem;
+    padding-bottom: 20px;
+    text-align: center;
+   
+
+   
+}
+
+
+
+
+@media (max-width: 800px){
+    .conteudo-habilidades{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+       
+
+    }
+
+    
+    .habilidade-item h2{
+        font-size: 3rem;  padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .experiencia h2{
+        font-size: 3rem;
+        padding-bottom: 20px;
+        text-align: center;
+        padding-top: 40px;
+        
+       
+    }
+    
+
+
+}
